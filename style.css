@@ -14,7 +14,7 @@ html {
   background-image: radial-gradient(
     closest-side at 5% 10%,
     rgb(0, 0, 0),
-    rgb(11, 54, 88) 1000%
+    rgb(67, 2, 75) 1000%
   );
   display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@ html {
 .swing {
   width: 40rem;
   height: 20rem;
-  background-color: rgba(206, 216, 91, 0.7);
+  background-color: rgba(181, 139, 194, 0.7);
   transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg);
   transform-style: preserve-3d;
   position: absolute;
@@ -122,7 +122,7 @@ html {
   content: "";
   width: 1rem;
   height: 100%;
-  background-color: #b4bb65;
+  background-color: #020200;
   position: absolute;
   transform: rotateY(90deg);
   transform-origin: left;
@@ -132,7 +132,7 @@ html {
   content: "";
   height: 1rem;
   width: 100%;
-  background-color: #e2ec6c;
+  background-color: #6cd9ec;
   position: absolute;
   bottom: 0;
   transform: rotateX(90deg);
@@ -142,7 +142,7 @@ html {
 .circle {
   width: 3rem;
   height: 3rem;
-  background-color: #c5c757;
+  background-color: #f2bd1e;
   border-radius: 50%;
   position: absolute;
   display: grid;
@@ -223,8 +223,8 @@ html {
   width: 7rem;
   aspect-ratio: 1;
   background-image: radial-gradient(
-    rgba(159, 238, 156, 0.9),
-    rgba(30, 110, 6, 0.8)
+    rgba(238, 156, 219, 0.9),
+    rgba(239, 4, 200, 0.8)
   );
   position: relative;
   left: 15rem;
